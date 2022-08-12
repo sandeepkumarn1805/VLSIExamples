@@ -1,0 +1,31 @@
+C:/fpga/examples/twocomcnt/cnt1_cnt2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/twocomcnt/cnt1_cnt2_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cnt1_cnt2_tb
+-- Compiling architecture behave of cnt1_cnt2_tb
+
+} {} {}} C:/fpga/examples/twocomcnt/cnt1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/twocomcnt/cnt1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cnt1
+-- Compiling architecture behave of cnt1
+
+} {} {}} C:/fpga/examples/twocomcnt/cnt2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/twocomcnt/cnt2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cnt2
+-- Compiling architecture behave of cnt2
+
+} {} {}}

@@ -1,0 +1,31 @@
+C:/fpga/examples/sampleexam/statemachine.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/sampleexam/statemachine.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity statemachine
+-- Compiling architecture behave of statemachine
+
+} {} {}} C:/fpga/examples/sampleexam/dataflow.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/sampleexam/dataflow.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity dataflow
+-- Compiling architecture behave of dataflow
+
+} {} {}} C:/fpga/examples/sampleexam/datamachine_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/sampleexam/datamachine_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity datamachine_tb
+-- Compiling architecture behave of datamachine_tb
+
+} {} {}}

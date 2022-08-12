@@ -1,0 +1,21 @@
+C:/fpga/examples/2_cnt/two_cnt.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/2_cnt/two_cnt.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity two_cnt
+-- Compiling architecture behave of two_cnt
+
+} {} {}} C:/fpga/examples/2_cnt/two_cnt_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/fpga/examples/2_cnt/two_cnt_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity two_cnt_tb
+-- Compiling architecture behave of two_cnt_tb
+
+} {} {}}

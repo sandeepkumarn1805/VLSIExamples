@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+ 
+entity flipflop is 
+    port(
+        clk : in std_logic;
+        rst : in std_logic;
+        Di : in std_logic_vector(2 downto 0);
+        Dout : out std_logic_vector(2 downto 0)
+    );
+end entity;
+ 
+architecture behave of flipflop is
+ 
+ 
+begin
+-- Asynchronize Reset, Active high and trigger on Rising Edge
+ff_proc : process(clk,rst)
+begin
+    if rst = '1' then
+        Dout <= (others => '0');        --"000";
+    elsif rising_edge (clk) then
+        Dout <= Di;
+    end if;
+end process;
+-- Synchronize Reset, Active low and trigger on Falling Edge
+ 
+end behave;
